@@ -1,0 +1,80 @@
+.CommitmentSection {
+  width: 100%;
+  background: #ffffff;
+  min-height: 720px;
+  padding: 120px 0 180px;
+}
+
+.CommitmentContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 104px;
+}
+
+.Stats {
+  width: 46%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px 72px;
+}
+
+.StatBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.StatNumber {
+  margin: 0 0 12px 0;
+  font-family: 'General Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 0.95;
+  color: #000000;
+}
+
+.StatText {
+  margin: 0;
+  font-family: 'General Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.CommitmentContent {
+  width: 54%;
+  max-width: 520px;
+}
+
+.CommitmentTitle {
+  margin: 0 0 32px 0;
+  font-family: 'General Sans', sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 0.95;
+  color: #000000;
+}
+
+.CommitmentText {
+  margin: 0 0 44px 0;
+  font-family: 'General Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.LearnMore {
+  margin: 0;
+  font-family: 'General Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #3461ff;
+  cursor: pointer;
+}
